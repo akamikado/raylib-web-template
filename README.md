@@ -1,5 +1,5 @@
 # Template for Raylib Web Build
-Template to create web games with (Raylib)[https://www.raylib.com]. Allows for pushing the build directly to (itch.io)[https://itch.io].
+Template to create web games with [Raylib](https://www.raylib.com). Allows for pushing the build directly to [itch.io](https://itch.io).
 
 ## Usage
 In `nob.c` define the following macros:
@@ -10,14 +10,14 @@ In `nob.c` define the following macros:
 - GAME: Game display name in itch.io
 
 Usage for C:
-    ```sh
-    cc -o nob nob.c
-    ./nob -help
-    ```
+```sh
+cc -o nob nob.c
+./nob -help
+```
 Usage for C++:
-    ````sh
-    mv nob.c nob.cpp
-    mv src/main.c src/main.cpp
-    cc -x c++ -o nob nob.cpp
-    ./nob -help
-    ``
+```sh
+mv nob.c nob.cpp
+mv src/main.c src/main.cpp
+cc -x c++ -o nob nob.cpp
+./nob -help
+```
